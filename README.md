@@ -28,6 +28,7 @@ ACME Learning is an online education platform built on Java SpringBoot and REST 
 -  Used embedded tomcat server to host the project. 
 - [x] Your project must contain tests that run as part of the build process. Feel free to use any
 framework you like.
+- Used JUnit and Mockito frameworks to create tests that run as a part of the build process.
 - [x] Create a README file with instructions to clone, build and run your project. Include a
 section with details about how you meet the business requirements.
 - [x] Frontend is optional. If you feel that the API is able to handle all use cases, just provide a
@@ -80,3 +81,28 @@ Instructors can sign up, log in, and manage courses. The Acme Learning System fu
 
 #### Interaction and Reporting:
 The platform provides interactions between students and instructors, such as viewing enrolled courses. It also includes reporting features for tracking course details.
+
+### Learning Outcomes:
+
+#### Testing:
+- Implemented unit and integration tests for the backend using JUnit and Mockito.
+- Explored and applied testing methodologies, ensuring robust backend functionality.
+  
+#### Documentation:
+- Utilized Postman for API testing and documentation, ensuring clear and comprehensive documentation.
+
+### Ratiocinations on Design Decisions:
+
+#### Code Organization:
+- Organized the codebase into controller, model, repository, and service for enhanced maintainability and separation of concerns.
+  
+#### Data Storage:
+- Chose file-based H2 database for efficient and reliable data storage.
+  
+#### Continuous Testing:
+- Conducted continuous testing of all endpoints using Postman during the development phase.
+
+### Future Enhancements:
+- MongoDB Integration: Plan to integrate MongoDB as the primary database for scalability.
+- Endpoint Expansion: Develop additional endpoints for data insertion, updating, and deletion.
+- Caching Implementation: Implement caching mechanisms to reduce response times and enhance system performance.
