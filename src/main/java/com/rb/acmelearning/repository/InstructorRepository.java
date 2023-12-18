@@ -4,4 +4,5 @@ import com.rb.acmelearning.model.Instructor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface InstructorRepository extends JpaRepository<Instructor, Long> {
+    Instructor findByUsernameAndPassword(String username, String password);
 }

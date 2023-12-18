@@ -1,0 +1,6 @@
+2023-12-18 01:46:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INSTRUCTORCOURSE" not found; SQL statement:
+SELECT * FROM INSTRUCTORCOURSE [42102-212]
+2023-12-18 01:53:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * [*]FROMINSTRUCTOR  COURSE"; SQL statement:
+SELECT * FROMINSTRUCTOR  COURSE [42000-212]
