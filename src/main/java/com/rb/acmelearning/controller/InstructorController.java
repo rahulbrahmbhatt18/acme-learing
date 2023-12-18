@@ -36,16 +36,11 @@ public class InstructorController {
 
     @PostMapping("/signUp")
     public ResponseEntity<String> signUpInstructor(@RequestBody Instructor instructor) {
-        if (instructor == null || instructor.getUsername() == null || instructor.getPassword() == null || instructor.getFullName() == null) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Invalid instructor data");
-        }
-
         Instructor createdInstructor = instructorService.createInstructor(instructor);
-
         if (createdInstructor != null) {
             return ResponseEntity.ok("Instructor signup successful");
         } else {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Unable to create instructor");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Unable to create instructor");
         }
     }
 

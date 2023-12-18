@@ -35,16 +35,12 @@ public class StudentController {
 
     @PostMapping("/signUp")
     public ResponseEntity<String> signUpStudent(@RequestBody Student student) {
-        if (student == null || student.getUsername() == null || student.getPassword() == null || student.getFullName() == null) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Invalid student data");
-        }
-
         Student createdStudent = studentService.createStudent(student);
 
         if (createdStudent != null) {
             return ResponseEntity.ok("Student signup successful");
         } else {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Unable to create student");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Unable to create student");
         }
     }
 
