@@ -3,17 +3,17 @@
 ACME Learning is an online education platform built on Java SpringBoot and REST APIs that helps Instructors to create Courses and make them available for Students to enroll. Happy Learning with ACME :)
 
 ### Use Cases:
-- [ ] Instructors and Students can sign up to the system
-- [ ] Instructors and Students can log in to the system
-- [ ] Instructors can create new Courses
-- [ ] Instructors can list only their Courses
-- [ ] Instructors can start Courses, after this time no enrollments are allowed
-- [ ] Instructors can cancel non started Courses
-- [ ] Students can list all the Courses
-- [ ] Students can enroll to any non-started Course
-- [ ] Students can drop a Course
-- [ ] Students can list all the Courses they are enrolled to
-- [ ] Instructors can list enrolled students in a Course
+- [x] Instructors and Students can sign up to the system
+- [x] Instructors and Students can log in to the system
+- [x] Instructors can create new Courses
+- [x] Instructors can list only their Courses
+- [x] Instructors can start Courses, after this time no enrollments are allowed
+- [x] Instructors can cancel non started Courses
+- [x] Students can list all the Courses
+- [x] Students can enroll to any non-started Course
+- [x] Students can drop a Course
+- [x] Students can list all the Courses they are enrolled to
+- [x] Instructors can list enrolled students in a Course
 
 ### Non Functional Requirements:
 - [x] Publish the project on your personal github account as a public repository
