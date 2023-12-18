@@ -17,7 +17,7 @@ ACME Learning is an online education platform built on Java SpringBoot and REST 
 
 ### Non Functional Requirements:
 - [x] Publish the project on your personal github account as a public repository
-- [ ] Commit often so we can evaluate how you make progress and how you fix issues
+- [x] Commit often so we can evaluate how you make progress and how you fix issues
 - [x] You must use SpringBoot 2.x and Java 8+
 -  Used SpringBoot 2.7.0 and followed Java 8 coding conventions to build this project. 
 - [x] Maven or Gradle is required to build the project
@@ -26,7 +26,7 @@ ACME Learning is an online education platform built on Java SpringBoot and REST 
 -  Used embedded H2 (file based, SQL) database to build the project. 
 - [x] Use embedded tomcat
 -  Used embedded tomcat server to host the project. 
-- [ ] Your project must contain tests that run as part of the build process. Feel free to use any
+- [x] Your project must contain tests that run as part of the build process. Feel free to use any
 framework you like.
 - [ ] Create a README file with instructions to clone, build and run your project. Include a
 section with details about how you meet the business requirements.
